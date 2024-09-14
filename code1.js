@@ -242,6 +242,7 @@ gdjs.copyArray(runtimeScene.getObjects("karmi2"), gdjs._1099_1075_1088_1072Code.
 }
 }{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 1);
 }{gdjs.evtTools.camera.showLayer(runtimeScene, "Layer2");
+}{runtimeScene.getScene().getVariables().getFromIndex(6).setNumber(0);
 }{for(var i = 0, len = gdjs._1099_1075_1088_1072Code.GDkarmi2Objects2.length ;i < len;++i) {
     gdjs._1099_1075_1088_1072Code.GDkarmi2Objects2[i].getBehavior("Text").setText("у тибя не хватила хамяк деняг. и тимур ушол.");
 }
@@ -405,7 +406,7 @@ gdjs.copyArray(runtimeScene.getObjects("bumtxt"), gdjs._1099_1075_1088_1072Code.
 }{for(var i = 0, len = gdjs._1099_1075_1088_1072Code.GDbumObjects1.length ;i < len;++i) {
     gdjs._1099_1075_1088_1072Code.GDbumObjects1[i].hide(false);
 }
-}{runtimeScene.getScene().getVariables().getFromIndex(0).sub(100);
+}{runtimeScene.getScene().getVariables().getFromIndex(6).sub(100);
 }{for(var i = 0, len = gdjs._1099_1075_1088_1072Code.GDbumtxtObjects1.length ;i < len;++i) {
     gdjs._1099_1075_1088_1072Code.GDbumtxtObjects1[i].hide(false);
 }
@@ -535,6 +536,7 @@ gdjs.copyArray(runtimeScene.getObjects("karmi2"), gdjs._1099_1075_1088_1072Code.
     gdjs._1099_1075_1088_1072Code.GDFloatingOutButtonDarkBlueObjects1[i].setY(1500);
 }
 }{gdjs.evtTools.camera.showLayer(runtimeScene, "Layer2");
+}{runtimeScene.getScene().getVariables().getFromIndex(6).setNumber(0);
 }{for(var i = 0, len = gdjs._1099_1075_1088_1072Code.GDkarmi2Objects1.length ;i < len;++i) {
     gdjs._1099_1075_1088_1072Code.GDkarmi2Objects1[i].getBehavior("Text").setText("грабитель украл у тибя всьо. канец.");
 }
@@ -614,6 +616,7 @@ gdjs.copyArray(runtimeScene.getObjects("karmi2"), gdjs._1099_1075_1088_1072Code.
 }
 }{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 1);
 }{gdjs.evtTools.camera.showLayer(runtimeScene, "Layer2");
+}{runtimeScene.getScene().getVariables().getFromIndex(6).setNumber(0);
 }{for(var i = 0, len = gdjs._1099_1075_1088_1072Code.GDkarmi2Objects1.length ;i < len;++i) {
     gdjs._1099_1075_1088_1072Code.GDkarmi2Objects1[i].getBehavior("Text").setText("ты не аддал тимуру 100 хамяк деняг. и он ушол.");
 }
