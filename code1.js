@@ -291,7 +291,7 @@ if (isConditionTrue_0) {
     gdjs._1099_1075_1088_1072Code.GDTimurButtonObjects1[i].setY(1500);
 }
 }{runtimeScene.getScene().getVariables().getFromIndex(4).setNumber(0);
-}{runtimeScene.getScene().getVariables().getFromIndex(0).sub(100);
+}{runtimeScene.getScene().getVariables().getFromIndex(6).sub(100);
 }}
 
 }
